@@ -69,8 +69,8 @@ class UpdaterMod(loader.Module):
         ),
         "update_confirm": (
             "🧭 <b>Are you sure you want to update?\n\n"
-            '<a href="https://github.com/hikariatama/Hikka/commit/{}">{}</a> ⤑ '
-            '<a href="https://github.com/hikariatama/Hikka/commit/{}">{}</a></b>'
+            '<a href="https://github.com/timurmoore/sailorsolaris/commit/{}">{}</a> ⤑ '
+            '<a href="https://github.com/timurmoore/sailorsolaris/commit/{}">{}</a></b>'
         ),
         "no_update": "🚸 <b>You are on the latest version, pull updates anyway?</b>",
         "cancel": "🚫 Cancel",
@@ -117,8 +117,8 @@ class UpdaterMod(loader.Module):
         ),
         "update_confirm": (
             "🧭 <b>Ты уверен, что хочешь обновиться??\n\n"
-            '<a href="https://github.com/hikariatama/Hikka/commit/{}">{}</a> ⤑ '
-            '<a href="https://github.com/hikariatama/Hikka/commit/{}">{}</a></b>'
+            '<a href="https://github.com/timurmoore/sailorsolaris/commit/{}">{}</a> ⤑ '
+            '<a href="https://github.com/timurmoore/sailorsolaris/commit/{}">{}</a></b>'
         ),
         "no_update": "🚸 <b>У тебя последняя версия. Обновиться принудительно?</b>",
         "cancel": "🚫 Отмена",
@@ -141,7 +141,7 @@ class UpdaterMod(loader.Module):
         self.config = loader.ModuleConfig(
             loader.ConfigValue(
                 "GIT_ORIGIN_URL",
-                "https://github.com/hikariatama/Hikka",
+                "https://github.com/timurmoore/sailorsolaris",
                 lambda: self.strings("origin_cfg_doc"),
                 validator=loader.validators.Link(),
             )
