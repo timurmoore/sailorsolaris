@@ -122,7 +122,7 @@ class UpdateNotifierMod(loader.Module):
                 self.tg_id,
                 self.strings("update_required").format(
                     self.get_commit()[:6],
-                    f'<a href="https://github.com/hikariatama/Hikka/compare/{self.get_commit()[:12]}...{self.get_latest()[:12]}">{self.get_latest()[:6]}</a>',
+                    f'<a href="https://github.com/timurmoore/sailorsolaris/compare/{self.get_commit()[:12]}...{self.get_latest()[:12]}">{self.get_latest()[:6]}</a>',
                     self.get_changelog(),
                 ),
                 disable_web_page_preview=True,
